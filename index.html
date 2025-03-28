@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>2-DAY National Workshop on LAW &amp; TECHNOLOGY</title>
+    <title>2-DAY National Workshop on LAW & TECHNOLOGY</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Lucide Icons -->
@@ -11,32 +11,39 @@
   </head>
   <body class="min-h-screen bg-gray-50">
     <!-- Hero Section -->
-    <header class="relative bg-[#f5f5dc] text-gray-800 py-24">
-      <div class="container mx-auto px-4 relative">
-        <!-- Left Logo (IITJ) -->
-        <img
-          src="https://iitj.ac.in/images/logo/Design-of-New-Logo-of-IITJ-2.png"
-          alt="IITJ Logo"
-          class="absolute top-6 left-6 w-32 h-auto"
-        />
-        <!-- Right Logo (NLUJ) -->
-        <img
-          src="https://nlujodhpur.ac.in/public/front/img/logo.png"
-          alt="NLUJ Logo"
-          class="absolute top-6 right-6 w-32 h-auto"
-        />
+    <header class="bg-[#f5f5dc] text-gray-800 pt-12 pb-24">
+      <div class="container mx-auto px-4">
+        <!-- Flex container for logos + heading -->
+        <div class="flex flex-col md:flex-row items-center justify-between">
+          <!-- Left Logo (IITJ) -->
+          <img
+            src="https://iitj.ac.in/images/logo/Design-of-New-Logo-of-IITJ-2.png"
+            alt="IITJ Logo"
+            class="w-32 h-auto mb-6 md:mb-0"
+          />
 
-        <h1 class="text-4xl md:text-5xl font-bold text-center mb-4">
-          2-DAY National Workshop on LAW &amp; TECHNOLOGY
-        </h1>
-        <p class="text-xl text-center text-gray-600 mb-6">Second Edition</p>
-        <p class="text-center text-lg text-gray-700">
-          Jointly Organised By<br />
-          <span class="font-semibold">
-            National Law University Jodhpur &amp; Indian Institute of Technology
-            Jodhpur
-          </span>
-        </p>
+          <!-- Workshop Title + Subtitle (centered) -->
+          <div class="text-center md:flex-1 md:mx-6 mb-6 md:mb-0">
+            <h1 class="text-3xl md:text-5xl font-bold mb-2">
+              2-DAY National Workshop on LAW &amp; TECHNOLOGY
+            </h1>
+            <p class="text-lg md:text-xl text-gray-600">Second Edition</p>
+            <p class="mt-4 text-gray-700">
+              Jointly Organised By<br />
+              <span class="font-semibold">
+                National Law University Jodhpur &amp; Indian Institute of
+                Technology Jodhpur
+              </span>
+            </p>
+          </div>
+
+          <!-- Right Logo (NLUJ) -->
+          <img
+            src="https://nlujodhpur.ac.in/public/front/img/logo.png"
+            alt="NLUJ Logo"
+            class="w-32 h-auto"
+          />
+        </div>
       </div>
     </header>
 
@@ -53,7 +60,6 @@
       <!-- Schedule Section -->
       <section class="mb-16">
         <h2 class="text-3xl font-bold text-center mb-12">Schedule Overview</h2>
-
         <!-- Day 1 -->
         <div class="mb-12 max-w-4xl mx-auto">
           <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
@@ -73,7 +79,7 @@
               </a>
             </div>
             <div class="space-y-6 mt-6">
-              <!-- Inauguration (static, non-expandable) -->
+              <!-- Inauguration (static) -->
               <div class="flex items-start bg-gray-50 p-4 rounded-lg">
                 <i
                   data-lucide="clock"
@@ -421,13 +427,11 @@
         <h2 class="text-3xl font-bold text-center mb-12">
           Distinguished Speakers
         </h2>
-
         <!-- Patrons -->
         <div class="mb-12">
           <h3 class="text-2xl font-semibold text-center mb-6">Patrons</h3>
           <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             <div class="bg-white rounded-lg shadow p-6 text-center">
-              <!-- Container for Prof. Harpreet Kaur's image -->
               <div class="mx-auto mb-4 w-48 h-48 overflow-hidden rounded-md">
                 <img
                   src="https://nlujodhpur.ac.in/public/front/faculty_photos/nlu_faculty_1740550155.jpg"
@@ -440,7 +444,6 @@
             </div>
 
             <div class="bg-white rounded-lg shadow p-6 text-center">
-              <!-- Container for Prof. Avinash Agarwal's image -->
               <div class="mx-auto mb-4 w-48 h-48 overflow-hidden rounded-md">
                 <img
                   src="https://i.postimg.cc/25F4qBcD/Screenshot-From-2025-03-28-09-30-55.png"
